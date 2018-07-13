@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include 'header.html' %}
+
+    <body>
+        <h1>
+            Hello World
+        </h1>
+
+        <div class="input-group">
+            <input type="text" class="form-control" id="user-input" placeholder="Enter your name">
+        </div>
+
+        <!-- see main.js for function activated by button-->
+        <div>
+            <button type="button" class="btn btn-primary" id="submit">SUBMIT</button>
+        </div>
+
+        <!-- empty div to be replaced by result from app.py -->
+        <div id="show-result">
+        </div>
+    </body>
+</html>

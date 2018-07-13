@@ -1,2 +1,2 @@
 # flask-hello-world
-Starter app for flask
+Starter app for Flask with Bootstrap 3

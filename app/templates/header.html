@@ -1,0 +1,15 @@
+<head>
+    <meta charset="utf-8">
+
+    <title>Hello Flask</title>
+    <meta name="description" content="Hello Flask">
+    <meta name="author" content="Nguyen Ngo">
+    <!-- load the jquery.js before the js for the app -->
+    <script type="text/javascript" src={{ url_for('static', filename='js/jquery.js') }}> </script>
+    <script type="text/javascript" src={{ url_for('static', filename='js/bootstrap.min.js') }}> </script>
+    <script type="text/javascript" src={{ url_for('static', filename='js/main.js') }}>  </script>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}"> -->
+
+</head>
